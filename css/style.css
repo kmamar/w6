@@ -8,6 +8,9 @@ body{
   .container{  
   display: block;
 }
+form{
+  display: block;
+}
 }  
 .container{    
 width: 100%;
@@ -215,7 +218,7 @@ text-align: center;
 
 }
 
-.landingbody img{
+.landingbody{
 
     width: 100%;
 }
@@ -254,23 +257,24 @@ text-align: center;
   text-align: left;
 }
 .aboutlandingbody{
-  width: 100%;
+  
   display: flex;
-
-  justify-content:flex-start;
-  align-items:flex-start;
+  width: 100%;
+  justify-content:center;
+  align-items:center;
 
   
   background-color:  #D9D9D9;
   padding-bottom: 50px;
 }
+aboutlandingbody-left
+{
+  width: 50%;
+}
 .aboutlandingbody-left h1{
-  left: 11.81%;
-  right: 62.78%;
-  top: 14.06%;
-  bottom: 79.69%;
   
-  font-family: 'Lemonada','Nunito',sans-serif;;
+  
+  font-family: 'Lemonada','Nunito',sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -295,14 +299,18 @@ padding-left: 25px;
 padding-right: 25px;
 
 }
+
+.aboutlandingbody img{
+  float: right;
+  width: 100%;  
+  object-fit: cover;
+  object-position: bottom;
+}
 .Registrationlandingbody{
   width: 100%;
   display: flex;
-
   justify-content: center;
     align-items: center;
-
-  
   background-color:  #F5F5F5;
   padding-bottom: 50px;
 }
