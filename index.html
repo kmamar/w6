@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link  href="https://fonts.googleapis.com/css2?family=Lemonada:wght@500&family=Nunito:wght@500&family=Signika+Negative:wght@600&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>eREADS</title>
+    <style>
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .topHeader {
+    background-color: #3a3838;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  height: 112px;
+
+  }
+.topHeader .profile{
+    text-align: center;
+}
+
+.topHeader .navSide nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  .topHeader .navSide nav ul li{
+    font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  line-height: 19px;
+  text-decoration: none;
+  margin-left: 20px;
+  color: #ffffff;
+  }
+  .topHeader .navSide nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .topHeader .box{
+    width: 350px;
+
+height: 25px;
+
+background-color: white;
+
+border-radius: 30px;
+
+
+display: flex;
+
+align-items: center;
+
+padding: 10px;
+
+}
+
+.topHeader .box > i {
+
+font-size: 20px;
+
+color: #777;
+
+}
+
+.topHeader .box > input{
+flex: 1;
+
+height: 20px;
+
+border: none;
+
+outline: none;
+font-family: "Nunito", sans-serif;
+
+font-size: 13px;
+
+padding-left: 10px;
+
+
+
+}
+
+.books img{
+    width: 100%;
+}
+.landingbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landingbody h1{
+font-family: 'Lemonada';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 64px;
+}
+.landingbody p{
+    font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500px;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+    .topHeader {
+    display: block;
+    align-items: center;
+    min-height: 250px;
+  }
+  .topHeader .navSide nav ul{
+    display: block;
+  }
+  .topHeader .box{
+    
+    width: 70%;
+  }
+
+
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <header class="topHeader"> 
+        <div class="top-nav-left-logo">
+          <img src="./ass/eREADS.svg" alt="" />
+        </div>
+        <div class="navSide">
+          <nav>
+            <ul>
+              <li><a href="./Home.html">HOME</a></li>
+              <li><a href="./About.html">ABOUT</a></li>
+              <li><a href="./Registration.html">REGISTRATION</a></li>
+              <li><a href="./e-books.html">E-BOOKS</a></li>
+              
+            </ul>
+        
+        </div>
+            <div class="box">
+                <input type="text" name="" placeholder="SEARCH e-BOOKS">
+
+                <i class="fa fa-search" aria-hidden="true"></i>
+            
+            
+            
+            </div>
+           <div class="profile"><a href="./profile.html"><img src="./ass/profileIcon.png" alt="" ></a></div>
+          </nav>
+        </div>
+      </header>
+      <div class="books">
+        <img src="./ass/HomeBookShelfImage.png" alt="" >
+    </div>
+    <div class="landingbody">
+        <div>
+        <h1>Knowledge starts here</h1>   
+           
+         <p >
+            Welcome to e-Reads! We are a digital resource for readers and researchers, offering free access to a vast collection of books, manuscripts, and other material.
+        </p>
+        
+        <button>START READING</button>
+            
+       
+        </div>
+        <div>
+        <img src="./ass/HomeIpadImage.png" alt="" ></div>
+    </div> 
+ <div><h1>footer</h1></div> 
+</body>
+</html>
